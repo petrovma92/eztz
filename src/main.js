@@ -1425,16 +1425,14 @@ utility.tztomin = utility.mutez;
 
 module.exports = {
   defaultProvider,
-  eztz: {
-    library: library,
-    prefix: prefix,
-    watermark: watermark,
-    utility: utility,
-    crypto: crypto,
-    node: node,
-    rpc: rpc,
-    contract: contract,
-    trezor: trezor,
-    tezos : tezos
-  }
+  library: library,
+  prefix: prefix,
+  watermark: watermark,
+  utility: utility,
+  crypto: crypto,
+  node: node,
+  rpc: rpc,
+  contract: contract,
+  trezor: trezor,
+  tezos : tezos
 };
