@@ -1,6 +1,6 @@
 {
-  "name": "eztz.js",
-  "version": "0.0.1",
+  "name": "eztz-lib",
+  "version": "0.1.1",
   "dependencies": {
     "bignumber.js": "^7.2.1",
     "bip39": "^2.5.0",
@@ -12,15 +12,27 @@
     "xhr2": "^0.1.4",
     "xmlhttprequest": "^1.8.0"
   },
+  "description": "npm package for eztz tezos library",
+  "main": "src/main.js",
   "scripts": {
-    "test": "jest",
-    "coverage": "jest --coverage && codecov",
-    "build": "webpack"
+    "test": "jest"
   },
-  "devDependencies": {
-    "browserify": "^14.4.0",
-    "jest": "^21.2.1",
-    "uglifyjs-webpack-plugin": "^1.2.4",
-    "webpack": "^3.11.0"
-  }
+  "files": [
+    "src/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petrovma92/eztz.git"
+  },
+  "keywords": [
+    "eztz-lib",
+    "eztz",
+    "tezos"
+  ],
+  "author": "Mikhail Petrov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petrovma92/eztz/issues"
+  },
+  "homepage": "https://github.com/petrovma92/eztz#readme"
 }
